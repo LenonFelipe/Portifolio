@@ -1,0 +1,74 @@
+/*Fontes*/
+
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
+/*Variaveis*/
+
+:root {
+    --background:#1a1a1a;
+    --secondTextColor: #ff5757;
+    --balls: #ff000c;
+    --text: #fffae3;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--text);
+}
+::-webkit-scrollbar{
+    background: rgb(95, 67, 67);
+}
+::-webkit-scrollbar-thumb{
+    background: var(--secondTextColor);
+    border-radius: 10px;
+}
+body{
+    background: var(--background);
+}
+#sobre, #projetos, #contatos{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav{
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    width:35%;
+    height: 60px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+nav a{
+    color: var(--text);
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 20px;
+}
+nav a:hover{
+    color: var(--secondTextColor);
+    transition: 0.5s;
+}
+strong, h1{
+    color: var(--secondTextColor);
+}
+#sobre{
+    justify-content: space-around;
+}
+#div1{
+    position: relative;
+    top: 100px;
+    left: 1%;
+    text-align: center;
+}
+@media screen and (min-width:320px) { } 
+@media screen and (min-width:480px) { } 
+@media screen and (min-width:600px) { }
+ @media screen and (min-width:768px) { } 
+ @media screen and (min-width:992px) { } 
+
+
+
+
