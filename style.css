@@ -64,10 +64,21 @@ strong, h1{
     text-align: center;
 }
 @media screen and (max-width:320px) { 
+    nav{
+        position: relative;
+        left: 5%;
+    }
+    #div1 p{
+        font-size: 15px;
+    }
+    #div1 h2{
+        font-size: 18px;
+    }
     #background1{
         position: relative;
         width: 70%;
         left: 50%;
+        top: 60px;
     }
 } 
 @media screen and (min-width:480px) { } 
