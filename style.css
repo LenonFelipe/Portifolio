@@ -63,6 +63,15 @@ strong, h1{
     left: 1%;
     text-align: center;
 }
+#div3{
+    position: relative;
+    top: -570px;
+    width: 100%;
+    z-index: -1;
+}
+#column1, #greekLine{
+    filter: invert(50%);
+}
 @media screen and (max-width:320px) { 
     nav{
         position: relative;
@@ -79,6 +88,12 @@ strong, h1{
         width: 70%;
         left: 50%;
         top: 60px;
+    }
+    #column1{
+        position: relative;
+        left: 60%;
+        top: -50px;
+        height: 500px;
     }
 } 
 @media screen and (min-width:480px) { } 
