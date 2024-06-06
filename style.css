@@ -72,6 +72,17 @@ strong, h1{
 #column1, #greekLine{
     filter: invert(50%);
 }
+#ball1{
+    position: relative;
+    top: -130px;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    filter: blur(100px);
+    background: var(--secondTextColor);
+    opacity: 50%;
+    z-index: -1;
+}
 @media screen and (max-width:320px) { 
     nav{
         position: relative;
@@ -94,6 +105,10 @@ strong, h1{
         left: 60%;
         top: -50px;
         height: 500px;
+    }
+    #greekLine{
+        position: relative;
+        top: 35px;
     }
 } 
 @media screen and (min-width:480px) { } 
