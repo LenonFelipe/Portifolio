@@ -98,17 +98,17 @@ strong, h1{
         position: relative;
         width: 70%;
         left: 50%;
-        top: 60px;
+        top: -340px;
     }
     #column1{
         position: relative;
         left: 60%;
-        top: -50px;
+        top: -415px;
         height: 500px;
     }
     #greekLine{
         position: relative;
-        top: 35px;
+        top: -380px;
     }
 } 
 @media screen and (min-width:480px) { } 
