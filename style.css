@@ -83,7 +83,28 @@ strong, h1{
     opacity: 50%;
     z-index: -1;
 }
+#ball2, #ball3{
+    background: var(--secondTextColor);
+    border-radius: 50%;
+    position: relative;
+} 
+#ball2{
+    height: 170px;
+    width: 170px;
+    left: 57%;
+}
+#ball3{
+    height: 100px;
+    width: 100px;
+    left: -10%;
+}
+#projects{
+    background: blue;
+}
 @media screen and (max-width:320px) { 
+    html,body{
+        overflow-x: hidden;
+    }
     nav{
         position: relative;
         left: 5%;
@@ -98,17 +119,23 @@ strong, h1{
         position: relative;
         width: 70%;
         left: 50%;
-        top: -340px;
+        top: -590px;
     }
     #column1{
         position: relative;
         left: 60%;
-        top: -415px;
+        top: -682px;
         height: 500px;
     }
     #greekLine{
         position: relative;
-        top: -380px;
+        top: -615px;
+    }
+    #ball2{
+        top: -310px; 
+    }
+    #ball3{
+        top: -335px; 
     }
 } 
 @media screen and (min-width:480px) { } 
