@@ -103,7 +103,6 @@ strong, h1{
     top: -1000px;
 }
 #medusa{
-    filter: invert(60%);
     opacity: 50%;
     width: 100%;
     height: 100%;
@@ -156,8 +155,54 @@ strong, h1{
         justify-content: center;
         height: 200px;
     }  
+    .card{
+        left: 5%;
+        background: #1a1a1a10;
+    }
+    #cardImg1{
+        width: 230px;
+        position: relative;
+        top: -155px;
+        left: 30px;
+    }
+    #cardImg2{
+        height: 132px;
+        width: 232px;
+        position: relative;
+        top: -155px;
+        left: 28px;
+    }
+    #cardImg3{
+        width: 232px;
+        height: 132px;
+        position: relative;
+        top: -155px;
+        left: 28px;
+    }
+    .card-body{
+        position: relative;
+        top: -120px;
+    }
+    .title{
+        font-weight: bold;
+        color: var(--text);
+        font-size: 22px;
+        text-decoration:none;
+    }
+    .card-body p {
+        font-size: 18px;
+    }
+    #code{
+        color: var(--secondTextColor);
+        font-size: 20px;
+    }
+    .title:hover{
+        color: var(--secondTextColor);
+    }
     #medusa{
+        filter: brightness(10);
         top: -600px;
+        opacity: 30%;
     }
 } 
 @media screen and (min-width:480px) { } 
