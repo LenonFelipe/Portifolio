@@ -120,7 +120,6 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) { 
     html,body{
         overflow-x: hidden;
-        background: red;
     }
     nav{
         position: relative;
