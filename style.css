@@ -116,6 +116,7 @@ strong, h1{
 @media screen and (max-width:320px) { 
     html,body{
         overflow-x: hidden;
+        background: red;
     }
     nav{
         position: relative;
